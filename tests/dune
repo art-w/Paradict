@@ -1,3 +1,9 @@
 (test
  (name test)
+ (modules test)
  (libraries alcotest paradict))
+
+(executable
+ (name dsc)
+ (modules dsc)
+ (libraries dscheck paradict))

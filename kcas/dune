@@ -1,0 +1,6 @@
+(library
+ (name kcas)
+ (package paradict)
+ (libraries dscheck)
+ (modes native)
+ (flags (-w -27)))
